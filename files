@@ -1,0 +1,118 @@
+<!-- <main class="container">
+
+      <div class="image-card">
+        <img class="main-img" src="src/images/image-equilibrium.jpg" alt="main-image">
+        
+        <div class="image-overlay">
+          <img src="src/images/icon-view.svg" alt="view-icon">
+        </div> 
+      </div>      
+
+      <div class="card-text">
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm</p>
+      </div>
+
+      <div class="icon-ethereum-text">
+        <img src="src/images/icon-ethereum.svg" alt="ethereum-icon">
+        <p>0.041 ETH</p>
+      </div>
+      
+      <div class="icon-clock-text">
+        <img src="src/images/icon-clock.svg" alt="clock-icon">
+        <p>3 days left</p>
+      </div>
+
+      <div class="card-footer">
+        <img src="src/images/image-avatar.png" alt="avatar-image">
+        <p>Creation of <span>Jules Wyvern</span></p>
+      </div>
+
+  </main>
+
+  
+
+  
+  
+  
+   
+
+
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;    
+  font-family: "Outfit", sans-serif;    
+  color: white;
+}
+
+.container{
+  max-width: 350px;
+  position: relative;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  flex-direction: column;
+  padding: 20px;
+  margin: 1em 0;
+  box-shadow: 0px 0px 10px rgb(29, 28, 28);
+}
+
+.image-card img{
+  position: relative;
+  width: 100%;
+  border-radius: 10px;    
+}
+
+.main-img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-overlay img{
+  position: absolute;
+  width: 100%;        
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  top: 0;
+  z-index: -1;
+}
+
+.image-card:hover .imgage-overlay{
+  z-index: 1;
+  cursor: pointer;
+  }
